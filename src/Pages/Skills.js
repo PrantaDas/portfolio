@@ -7,10 +7,18 @@ import skill5 from '../assets/skills/reactjs.png'
 import skill6 from '../assets/skills/js.png'
 import skill7 from '../assets/skills/figma.png'
 import skill8 from '../assets/skills/git.png'
+import Typewriter from 'typewriter-effect'
 
 const Skills = () => {
     return (
         <section className='bg-tertiary py-12 bg-gray-900 sm:px-8'>
+            <h3 style={{fontFamily:'Lobster,cursive'}} className='text-3xl text-base-300 pb-5 font-bold'>Expertise In <span className='text-yellow-800 p-3'><Typewriter 
+                options={{
+                    strings: ['HTML5','CSS3','Next Js','React Js','JavaScript','Node Js','Figma','Git'],
+                    autoStart: true,
+                    loop: true,
+                }}
+            /></span></h3>
             <div className='container mx-auto'>
                 <div className='grid grid-cols-8 md:grid-flow-col'>
                     <div className='flex items-center justify-center'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import bannerImage from '../../src/assets/images/my-bg2.png';
 import Particle from './Particle';
+import Typewriter from 'typewriter-effect'
 
 
 const Banner = () => {
@@ -19,10 +20,16 @@ const Banner = () => {
                 Hi there, I'm Pranta 👋
               </p>
               <h1 className='text-4xl text-white text-left leading-[44px] md:text-5xl md:leading-tight lg:text-7xl lg:leading-[1.2] font-bold md:tracking-[-2px]'>
-                A true passionate<br />Web Developer.
+                A true passionate<br /><Typewriter
+                  options={{
+                    strings: ['Web Developer'],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
               </h1>
-              <p className='pt-4 text-white pb-8 leading-loose tracking-wide md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-                An enthusiast and knoeledge seeker about web developing.Brings innovative ideas and solutions....
+              <p style={{fontFamily:'Lobster,cursive'}} className='pt-4 text-white pb-8 leading-loose tracking-wide md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
+                An enthusiast and knowledge seeker about web developing.Brings innovative ideas and solutions....
               </p>
               <button className='btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all'>
                 <a href="https://drive.google.com/file/d/1NF7ffzZk88cxBFf8Hi_bBGRQgQBMPTt8/view?usp=sharing" target="_blank" rel="noopener noreferrer" download>Download Resume</a>

@@ -1,48 +1,24 @@
-import React from 'react';
-import image from '../assets/projects/My project.png'
-import image1 from '../assets/projects/My project (2).png'
-import image2 from '../assets/projects/My project (3).png'
+import React, { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
-const AllProjects = () => {
+const AllProjects = ({ project }) => {
+    const [selectedId, setSelectedId] = useState(null);
     return (
-        <section className='grid lg:grid-cols-3 gap-8'>
-            <div>
-                <div className='flex flex-col items-center text-center'>
-                    <div className='mb-8 w-96'>
-                        <img className='rounded-2xl' src={image} alt='' />
-                    </div>
-                    <p className='capitalize text-yellow-700 text-sm mb-3'>React js</p>
-                    <h3 className='text-2xl text-white font-semibold capitalize mb-3'>Mason Hut</h3>
-                    <p className='text-base-300 max-w-md'>
-                       This is a manufacturer company based application.
-                    </p>
+        <div>
+            <div onClick={() => setSelectedId(project.id)} layoutId={project.id} className='flex flex-col items-center text-center'>
+                <div className='mb-8 w-96'>
+                    <img className='rounded-2xl' src={project.image} alt='' />
                 </div>
+                <p className='capitalize text-yellow-700 text-sm mb-3'>{project.type}</p>
+                <Link to={`/projects/${project._id}`}><button className='btn btn-xs btn-primary'>Details</button></Link>
+                <h3 className='text-2xl text-white font-semibold capitalize mb-3'>{project.title}</h3>
+                <p className='text-base-300 max-w-md'>
+                    {project.features}
+                </p>
             </div>
-            <div>
-                <div className='flex flex-col items-center text-center'>
-                    <div className='mb-8 w-96'>
-                        <img className='rounded-2xl' src={image1} alt='' />
-                    </div>
-                    <p className='capitalize text-yellow-700 text-sm mb-3'>React js</p>
-                    <h3 className='text-2xl text-white font-semibold capitalize mb-3'>Healthy Bite</h3>
-                    <p className='text-base-300 max-w-md'>
-                        This is a consultation service based application.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <div className='flex flex-col items-center text-center'>
-                    <div className='mb-8 w-96'>
-                        <img className='rounded-2xl' src={image2} alt='' />
-                    </div>
-                    <p className='capitalize text-yellow-700 text-sm mb-3'>React js</p>
-                    <h3 className='text-2xl text-white font-semibold capitalize mb-3'>Daily Deals</h3>
-                    <p className='text-base-300 max-w-md'>
-                        This application is warehouse management based.
-                    </p>
-                </div>
-            </div>
-        </section>
+
+        </div>
     );
 };
 

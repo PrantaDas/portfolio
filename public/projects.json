@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "title":"Mason Hut",
+        "image":"https://i.ibb.co/Nm1DcSB/My-project.png",
+        "image1":"https://i.ibb.co/D4DqTv2/My-project-4.png",
+        "image2":"https://i.ibb.co/LhdJL7k/My-project-5.png",
+        "type":"Fullstack",
+        "technology":"React Js,Tailwind CSS,React Router,React Query,Firebase,Node Js,Mongodb,JWT,Heroku,Stripe,React Toastify,React firebase hooks",
+        "livesite":"https://mason-hut.web.app/",
+        "clientside":"https://github.com/PrantaDas/mason-hut-client",
+        "serverside":"https://github.com/PrantaDas/mason-hut-server",
+        "features":"This is a manufacturer company based application.",
+        "functionalities":"The website is a manufaacturer based in ehich the users can easily interact bry signing up.Users can order a minimum quantity of products in the desired location,can make payment throug Stripe(payment gateway),and can cancel the order anytime if it is not paid.The users are also able to post a review based on overall services.There are admin roles available on the website.An admin can make another user a admin .An admin can manage the order and its status and also can add or delete an product anytime.Every api is protected using JWT on the server-side .Also in the client side the route is protected for the user and admin."
+    },
+    {
+        "id":2,
+        "title":"Daily Deals",
+        "type":"Fullstack",
+        "image":"https://i.ibb.co/YTYm2Qd/My-project-3.png",
+        "image1":"https://i.ibb.co/2gDKC8Q/My-project-6.png",
+        "image2":"https://i.ibb.co/8Kk9Z0s/My-project-7.png",
+        "technology":"React Js,Tailwind CSS,React Router,Firebase,Node Js,Mongodb,JWT,Heroku,React Toastify,React firebase hooks",
+        "livesite":"https://daily-deals-react.web.app/",
+        "clientside":"https://github.com/PrantaDas/daily-deals-client",
+        "serverside":"https://github.com/PrantaDas/daily-deals-server",
+        "features":"This is a warehouse management based application.",
+        "functionalities":"This site is made for storing products globally from different traders to deal with one trading.Users can easily store and make a fair trade among them.Also,security concerns are provided for the user's privacy  and data.Sellers can update the product quantity and also can add a new product to the websitee whenever needed."
+    },
+    {
+        "id":3,
+        "title":"Healthy Bite",
+        "type":"Frontend",
+        "image":"https://i.ibb.co/4pMwfmL/My-project-2.png",
+        "image1":"https://i.ibb.co/8Kk9Z0s/My-project-7.png",
+        "image2":"https://i.ibb.co/8Kk9Z0s/My-project-7.png",
+        "technology":"React Js,Bootstrap,React Bootstrap,React Router,Firebase,React Toastify,React firebase hooks",
+        "livesite":"https://healthy-bite-dfbc3.web.app/",
+        "clientside":"https://github.com/PrantaDas/healty-bite-react",
+        "serverside":"",
+        "features":"This is a Consultation service based application.",
+        "functionalities":"The uses can simplu start exloring just signing up with and email password base / Google sign-in authentication method.The user can order the product available on the website.Users van use the consultation dervices virtually or atttedn physically.Users can take subscriptions in a particular time period for specific services."
+    }
+]

@@ -17,11 +17,11 @@ const Contact = () => {
           e.target.reset();
       };
     return (
-        <section className='section bg-gray-800 mt-12' id='contact'>
+        <section className='section bg-gray-800 mt-12' id='contact' >
             <div className='container mx-auto'>
                 <div className='flex flex-col items-center text-center'>
                     <h2 className='section-title text-3xl py-3 text-base-300 before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
-                        Contact me
+                        Contact Me
                     </h2>
                     <p className='subtitle text-base-300 pb-2'>
                         If you have any kind of query fell free to ask me.Email me by completing the given form below..

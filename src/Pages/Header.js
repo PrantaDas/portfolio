@@ -1,13 +1,36 @@
 import React from 'react';
 import { FaFacebook } from "react-icons/fa";
-import { AiOutlineGithub,AiFillLinkedin } from "react-icons/ai";
-import { Link } from 'react-router-dom';
+import { AiOutlineGithub, AiFillLinkedin } from "react-icons/ai";
+import { Link } from 'react-scroll';
+import { NavLink } from 'react-router-dom';
 const Header = () => {
-    const menuitems=<>
+    const menuitems = <>
         <li className='font-bold font-sans'><Link to='/'>Home</Link></li>
-        <li className='font-bold font-sans'><Link to='/'>About</Link></li>
-        <li className='font-bold font-sans'><Link to='/'>Portfolio</Link></li>
-        <li className='font-bold font-sans'><Link to='projects'>Projects</Link></li>
+        <li className='font-bold font-sans'><Link to={`about`}
+            activeClass='active'
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-70}
+            className='transition-all duration-300'
+        >About</Link></li>
+        <li className='font-bold font-sans'><Link to={`portfolio`}
+            activeClass='active'
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-70}
+            className='transition-all duration-300'
+        >Projects</Link></li>
+        <li className='font-bold font-sans'><Link to={`contact`}
+            activeClass='active'
+            spy={true}
+            smooth={true}
+            duration={500}
+            offset={-70}
+            className='transition-all duration-300'
+        >Contact</Link></li>
+        <li><NavLink to='/blog'>BLog</NavLink></li>
     </>;
     return (
         <div class="navbar  bg-black text-neutral-content">
@@ -20,7 +43,7 @@ const Header = () => {
                         {menuitems}
                     </ul>
                 </div>
-                <a href='/' class="btn btn-ghost normal-case text-xl" style={{fontFamily:'Josefin Sans'}}>Pranta Das</a>
+                <a href='/' class="btn btn-ghost normal-case text-xl" style={{ fontFamily: 'Josefin Sans' }}>Pranta Das</a>
             </div>
             <div class="navbar-center hidden lg:flex">
                 <ul class="menu menu-horizontal p-0">
@@ -30,8 +53,8 @@ const Header = () => {
             <div class="navbar-end lg:block hidden">
                 <ul class="menu menu-horizontal p-0">
                     <li><a href="https://www.linkedin.com/in/pranta-das7/" target="_blank"><AiFillLinkedin /></a></li>
-                    <li><a href="https://github.com/PrantaDas" target='_blank'><AiOutlineGithub/></a></li>
-                    <li><a href="http://" target="_blank" rel="noopener noreferrer"><FaFacebook/></a></li>
+                    <li><a href="https://github.com/PrantaDas" target='_blank'><AiOutlineGithub /></a></li>
+                    <li><a href="https://www.facebook.com/pranta.das.79827 " target="_blank" rel="noopener noreferrer"><FaFacebook /></a></li>
                 </ul>
             </div>
         </div>

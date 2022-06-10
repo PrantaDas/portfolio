@@ -3,7 +3,7 @@ import about from '../assets/images/pexels-cottonbro-3201580 (1).jpg'
 
 const About = () => {
     return (
-        <section className='section bg-gray-800 py-8'>
+        <section className='section bg-gray-800 py-8' id='about'>
             <div className='container mx-auto'>
                 <div className='flex flex-col xl:flex-row gap-24'>
                     <img
