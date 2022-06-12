@@ -29,7 +29,7 @@ const Service = () => {
                             <MdOutlineDeveloperMode />
                         </div>
                         <h4 className='text-xl font-medium mb-2 text-yellow-700 text-left'>Web Development</h4>
-                        <p className='text-justify text-base-300'>Web development is the building and maintenance of websites; it’s the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.Web developers, or ‘devs’, do this by using a variety of coding languages. The languages they use depends on the types of tasks they are preforming and the platforms on which they are working.Web development skills are in high demand worldwide and well paid too – making development a great career option. It is one of the easiest accessible higher paid fields as you do not need a traditional university degree to become qualified.
+                        <p className='text-justify text-base-300'>Web development is the building and maintenance of websites; it’s the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.Web developers, or ‘devs’, do this by using a variety of coding languages. The languages they use depends on the types of .
 
                         </p>
                     </div>
@@ -38,7 +38,7 @@ const Service = () => {
                             <CgIfDesign />
                         </div>
                         <h4 className='text-xl text-yellow-700 font-medium mb-2 text-left'>Web Design</h4>
-                        <p className='text-justify text-base-300'>Web design is what creates the overall look and feel when you’re using a website. It’s the process of planning and building the elements of your website, from structure and layout to images, colors, fonts and graphics.Web design has numerous components that work together to create the finished experience of a website, including graphic design, user experience design, interface design, search engine optimization (SEO) and content creation.</p>
+                        <p className='text-justify text-base-300'>Web design is what creates the overall look and feel when you’re using a website. It’s the process of planning and building the elements of your website, from structure and layout to images, colors, fonts and graphics.Web design has numerous components that work together to create the finished experience of a website</p>
                     </div>
                     <div className='bg-gray-800 p-6 rounded-2xl'>
                         <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]'>

@@ -49,6 +49,7 @@ const Details = () => {
                     </h5>
                     <div className='py-2'>
                       <p className='text-lg text-accent text-left pb-3'>{project.type}</p>
+                      <p className='text-yellow-800 text-left py-2'><span className='pr-2'><a className='btn btn-xs btn-primary' href={project.livesite} target="_blank" rel="noopener noreferrer">Live Site</a></span><span className='pr-2'><a className='btn btn-xs btn-primary' href="http://" target="_blank" rel="noopener noreferrer">Client-Side</a></span><span className='p-2'><a className='btn btn-xs btn-primary' href="http://" target="_blank" rel="noopener noreferrer">Server-Side</a></span></p>
                       <p className='text-white text-left'><span className='text-secondary font-bold'>Technologies:</span>{project.technology}</p>
                       <p className='text-white text-left py-3'><span className='text-secondary font-bold'>Description: </span>{project.functionalities}</p>
                     </div>
@@ -72,6 +73,7 @@ const Details = () => {
                     </h5>
                     <div>
                     <p className='text-lg text-accent text-left pb-3'>{project.type}</p>
+                    <p className='text-yellow-800 text-left py-2'><span className='pr-2'><a className='btn btn-xs btn-primary' href={project.livesite} target="_blank" rel="noopener noreferrer">Live Site</a></span><span className='pr-2'><a className='btn btn-xs btn-primary' href="http://" target="_blank" rel="noopener noreferrer">Client-Side</a></span><span className='p-2'><a className='btn btn-xs btn-primary' href="http://" target="_blank" rel="noopener noreferrer">Server-Side</a></span></p>
                       <p className='text-white text-left'>{project.technology}</p>
                       <p className='text-white text-left py-3'><span className='text-secondary font-bold'>Description: </span>{project.functionalities}</p>
                     </div>
@@ -95,6 +97,7 @@ const Details = () => {
                     </h5>
                     <div className='py-2'>
                     <p className='text-lg text-accent text-left pb-3'>{project.type}</p>
+                    <p className='text-yellow-800 text-left py-2'><span className='pr-2'><a className='btn btn-xs btn-primary' href={project.livesite} target="_blank" rel="noopener noreferrer">Live Site</a></span><span className='pr-2'><a className='btn btn-xs btn-primary' href={project.clientside} target="_blank" rel="noopener noreferrer">Client-Side</a></span><span className='p-2'><a className='btn btn-xs btn-primary' href={project.serverside} target="_blank" rel="noopener noreferrer">Server-Side</a></span></p>
                       <p className='text-white text-left'>{project.technology}</p>
                       <p className='text-white text-left py-3'><span className='text-secondary font-bold'>Description: </span>{project.functionalities}</p>
                     </div>
