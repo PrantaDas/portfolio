@@ -13,37 +13,39 @@ const Service = () => {
                         Which  Service I Provide
                     </h2>
                     <p className='subtitle text-base-300 py-2'>
-                       List of services that I provide for the clients.
+                        List of services that I provide for the clients.
                     </p>
                 </div>
                 <div className='grid lg:grid-cols-4 gap-8 py-5'>
                     <div className='bg-gray-800 p-6 rounded-2xl'>
                         <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]'>
-                            <BsVectorPen/>
+                            <BsVectorPen />
                         </div>
                         <h4 className='text-xl text-yellow-700 text-left font-medium mb-2'>Branding</h4>
-                        <p className='text-justify text-base-300'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis aliquam porro necessitatibus cum ab eos voluptas eaque rem nostrum officia, dignissimos ad maxime, explicabo sunt ratione labore iure error, tempore illo qui ea deserunt. Reprehenderit modi consectetur at exercitationem quod.</p>
+                        <p className='text-justify text-base-300'>Branding is the process of creating the look, feel, and persona for your company. The main goal of branding is to create a positive perception of your company in the public eye, shaping how you want customers to think about your brand. How your brand looks, communicates, and operates are all essential parts of the branding process.</p>
                     </div>
                     <div className='bg-gray-800 p-6 rounded-2xl'>
                         <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]'>
-                            <MdOutlineDeveloperMode/>
+                            <MdOutlineDeveloperMode />
                         </div>
-                        <h4 className='text-xl font-medium mb-2 text-yellow-700 text-left'>Wev Develoopment</h4>
-                        <p className='text-justify text-base-300'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto alias dolor enim earum dicta nostrum odit animi, natus odio necessitatibus quia voluptatem totam temporibus quod, est delectus libero, possimus repellat iste consequuntur saepe. Nobis eos veritatis cumque ratione omnis?</p>
+                        <h4 className='text-xl font-medium mb-2 text-yellow-700 text-left'>Web Development</h4>
+                        <p className='text-justify text-base-300'>Web development is the building and maintenance of websites; it’s the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.Web developers, or ‘devs’, do this by using a variety of coding languages. The languages they use depends on the types of tasks they are preforming and the platforms on which they are working.Web development skills are in high demand worldwide and well paid too – making development a great career option. It is one of the easiest accessible higher paid fields as you do not need a traditional university degree to become qualified.
+
+                        </p>
                     </div>
                     <div className='bg-gray-800 p-6 rounded-2xl'>
                         <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]'>
-                            <CgIfDesign/>
+                            <CgIfDesign />
                         </div>
                         <h4 className='text-xl text-yellow-700 font-medium mb-2 text-left'>Web Design</h4>
-                        <p className='text-justify text-base-300'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore delectus cupiditate neque beatae cum temporibus eligendi alias, corporis est quam deleniti harum eos veritatis necessitatibus vero similique dolores commodi impedit corrupti optio aperiam nisi possimus expedita voluptate. Recusandae, tenetur nihil?</p>
+                        <p className='text-justify text-base-300'>Web design is what creates the overall look and feel when you’re using a website. It’s the process of planning and building the elements of your website, from structure and layout to images, colors, fonts and graphics.Web design has numerous components that work together to create the finished experience of a website, including graphic design, user experience design, interface design, search engine optimization (SEO) and content creation.</p>
                     </div>
                     <div className='bg-gray-800 p-6 rounded-2xl'>
                         <div className='text-accent rounded-sm w-12 h-12 flex justify-center items-center mb-10 text-[28px]'>
-                            <TiArrowMinimiseOutline/>
+                            <TiArrowMinimiseOutline />
                         </div>
                         <h4 className='text-xl text-left text-yellow-700 font-medium mb-2'>SEO</h4>
-                        <p className='text-justify text-base-300'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab voluptate quo eaque laborum, amet eius nesciunt, distinctio sint adipisci sunt similique error odio! Harum, fugiat? Voluptas tempore, iste unde corrupti ad qui labore doloremque dolor assumenda vitae, vero odio adipisci.</p>
+                        <p className='text-justify text-base-300'>SEO means Search Engine Optimization and is the process used to optimize a website's technical configuration, content relevance and link popularity so its pages can become easily findable, more relevant and popular towards user search queries, and as a consequence, search engines rank them better.</p>
                     </div>
                 </div>
             </div>
